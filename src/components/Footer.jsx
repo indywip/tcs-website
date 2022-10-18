@@ -73,7 +73,6 @@ const Top = styled.div`
 
 const Left = styled.div`
     display: flex;
-    align-items: center;
     gap: 10px;
 `
 
@@ -133,6 +132,7 @@ const Blob = styled.img`
     width: 400px;
     position: absolute;
     margin-right: 0px;
+    overflow: hidden;
 `
 
 const Blobby = styled.div`
