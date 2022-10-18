@@ -139,7 +139,7 @@ const Blob = styled.img`
 const Blobby = styled.div`
     display: flex;
     justify-content: flex-end;
-    margin-right: -25px;
+    margin-right: -27px;
     margin-top: -220px;
 `
 
