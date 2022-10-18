@@ -12,8 +12,8 @@ const Navbar = () => {
             <Text>The Creative Solution</Text>
         </Logo>
         <Buttons>
-            <Link to="/" style={{ textDecoration: "none" }}><Button>Home</Button></Link>
-            <Link to="/about" style={{ textDecoration: "none" }}><Button>About Us</Button></Link>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}><Button>Home</Button></Link>
+            <Link to="/about" style={{ textDecoration: "none", color: "black" }}><Button>About Us</Button></Link>
             <Button>Past Work</Button>
             <Button>FAQ</Button>
             <Request>Request Designs</Request>
