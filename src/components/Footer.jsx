@@ -67,13 +67,13 @@ const Wrapper = styled.div`
 const Top = styled.div`
     display: flex;
     gap: 60px;
-    align-items: top;
+    align-items: start;
     margin-bottom: 30px; 
 `
 
 const Left = styled.div`
     display: flex;
-    align-items: top;
+    align-items: start;
     gap: 10px;
 `
 
@@ -139,7 +139,7 @@ const Blob = styled.img`
 const Blobby = styled.div`
     display: flex;
     justify-content: flex-end;
-    margin-right: -40px;
+    margin-right: -30px;
     margin-top: -220px;
 `
 
