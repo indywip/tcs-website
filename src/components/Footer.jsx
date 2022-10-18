@@ -73,8 +73,8 @@ const Top = styled.div`
 
 const Left = styled.div`
     display: flex;
-    align-items: start;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
 `
 
 const Logo = styled.img`
@@ -139,7 +139,7 @@ const Blob = styled.img`
 const Blobby = styled.div`
     display: flex;
     justify-content: flex-end;
-    margin-right: -30px;
+    margin-right: -25px;
     margin-top: -220px;
 `
 
@@ -156,6 +156,6 @@ const Icon = styled.img`
 `
 
 const Twit = styled.img`
-width: 20px;
-height: 16px;
+    width: 20px;
+    height: 16px;
 `
