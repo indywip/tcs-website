@@ -14,7 +14,9 @@ const Navbar = () => {
         <Buttons>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}><Button>Home</Button></Link>
             <Link to="/about" style={{ textDecoration: "none", color: "white" }}><Button>About Us</Button></Link>
-            <Button>Past Work</Button>
+            <Button onClick={(e)=> {
+                window.open("https://drive.google.com/drive/folders/1Bvtpqf4fcOXICxNhPvOLwL32RR4eAfM2", "_blank")
+            }}>Past Work</Button>
             <Button>FAQ</Button>
             <Request onClick={(e)=> {
                         window.open("https://docs.google.com/forms/d/e/1FAIpQLSfHrryaIVmtKrWSQFctsUZnf_5HZp1hrzXv5uholwMQm2Ws3A/viewform", '_blank')
