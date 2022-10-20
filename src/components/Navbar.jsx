@@ -16,7 +16,9 @@ const Navbar = () => {
             <Link to="/about" style={{ textDecoration: "none", color: "white" }}><Button>About Us</Button></Link>
             <Button>Past Work</Button>
             <Button>FAQ</Button>
-            <Request>Request Designs</Request>
+            <Request onClick={(e)=> {
+                        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfHrryaIVmtKrWSQFctsUZnf_5HZp1hrzXv5uholwMQm2Ws3A/viewform", '_blank')
+            }}>Request Designs</Request>
         </Buttons> 
     </Wrapper>
     );

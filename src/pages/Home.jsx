@@ -9,7 +9,9 @@ const Home = () => {
                 <Image2 src={`https://i.imgur.com/ruPYL4L.png`}  />
                 <BigText style={{ marginTop: '-120px' }}>We Create, Build, and Design For Your Desires</BigText>
                 <Sub>Leverage Canada’s best and brightest students while achieving your business goals</Sub>
-                <Button>Request a Project</Button>
+                <Button onClick={(e)=> {
+                        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfHrryaIVmtKrWSQFctsUZnf_5HZp1hrzXv5uholwMQm2Ws3A/viewform", '_blank')
+                }}>Request a Project</Button>
             </TextIntro>
             <ImageIntro>
                 <Image src={`https://i.imgur.com/7C4zGr5.png`}  />
