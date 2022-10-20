@@ -71,4 +71,5 @@ const Request = styled.button`
     border-radius: 10px;
     font-weight: 600;
     margin-left: 12px;
+    cursor: pointer;
 `

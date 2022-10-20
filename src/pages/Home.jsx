@@ -137,6 +137,7 @@ const Button = styled.button`
     border-radius: 15px;
     margin-top: 12px;
     font-weight: 600;
+    cursor: pointer;
 `
 
 const Image2 = styled.img`
