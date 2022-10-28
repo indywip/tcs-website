@@ -71,10 +71,13 @@ const Home = () => {
                 <Block>
                     <Head style={{ color: 'white', marginTop: '0px' }}>We are also trusted by:</Head>
                     <Logos>
-                        <Company src={`https://i.imgur.com/bgntcAL.png`} />
+                        <LongCompany src={`https://i.imgur.com/RGUykeN.png`} />
                         <Company src={`https://i.imgur.com/kjj9B21.png`} />
-                        <Company src={`https://i.imgur.com/DQts4Ck.png`} />
+                        <LongCompany style={{ width: '160px' }} src={`https://i.imgur.com/nvzjtpU.png`} />
+                        <Company style={{ width: '68px' }} src={`https://i.imgur.com/DQts4Ck.png`} />
+                        <LongCompany style={{ width: '175px' }} src={`https://i.imgur.com/wo4jrGj.png`} />
                         <Company src={`https://i.imgur.com/jaFKWZn.png`} />
+                        <LongCompany src={`https://i.imgur.com/UQ7weXL.png`} />
                     </Logos>
                 </Block>
             </Padding>
@@ -231,7 +234,7 @@ const Logos = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 `
 
 const Padding = styled.div`
@@ -240,5 +243,9 @@ const Padding = styled.div`
 `
 
 const Company = styled.img`
-    width: 85px;
+    width: 75px;
+`
+
+const LongCompany = styled.img`
+    width: 135px;
 `
