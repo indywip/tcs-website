@@ -7,10 +7,12 @@ import logo from "../img/logowhite.png"
 const Navbar = () => {
     return (
     <Wrapper>
+         <Link to="/" style={{ textDecoration: "none", color: "white" }}>
        <Logo>
             <Icon src={logo} alt="logo" />
             <Text>The Creative Solution</Text>
         </Logo>
+        </Link>
         <Buttons>
             <Link to="/" style={{ textDecoration: "none", color: "white" }}><Button>Home</Button></Link>
             <Link to="/about" style={{ textDecoration: "none", color: "white" }}><Button>About Us</Button></Link>
