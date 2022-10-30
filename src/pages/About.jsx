@@ -61,6 +61,11 @@ const About = () => {
                     </Person>
                 </People>
             </Team>
+            <Join>
+                <Head>Join Us Today!</Head>
+                <Text>Interested in designing or developing with us? Apply to join our team today!</Text>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE7Xk_vLngcrX4BUyIOBKMszVK50rqhQk6p9b9wyB5xIgNWQ/viewform?embedded=true" width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </Join>
         </Wrapper>
     )
 }
@@ -68,6 +73,14 @@ const About = () => {
 export default About
 
 const Wrapper = styled.div``
+
+const Join = styled.div`
+    padding: 35px 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`
 
 const Person = styled.div`
     display: flex;
@@ -117,6 +130,8 @@ const Image2 = styled.img`
     width: 350px;
 `
 
+const Image3 = styled.img``
+
 const Top = styled.div`
     background-color: #2C323E;
     display: flex;
@@ -153,4 +168,5 @@ const Text = styled.p`
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+    margin-top: -20px;
 `
