@@ -121,7 +121,7 @@ const Con1 = styled.div`
     justify-content: flex-end;
 `
 const Image1 = styled.img`
-    margin-top: -200px;
+    margin-top: -210px;
     width: 400px;
 `
 
@@ -149,7 +149,7 @@ const BigText = styled.h1`
 
 const AboutUs = styled.div`
     padding: 35px 190px;
-    margin-top: -160px;
+    margin-top: -140px;
 `
 
 const Team = styled.div`
