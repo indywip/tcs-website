@@ -64,7 +64,17 @@ const About = () => {
             <Join>
                 <Head>Join Us Today!</Head>
                 <Text>Interested in designing or developing with us? Apply to join our team today!</Text>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE7Xk_vLngcrX4BUyIOBKMszVK50rqhQk6p9b9wyB5xIgNWQ/viewform?embedded=true" width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                <Blobs>
+                    <ImageGroup>
+                        <Image3 src={`https://i.imgur.com/iRTQXe5.png`} />
+                        <Image4 src={`https://i.imgur.com/Ixg1K4Q.png`} />
+                    </ImageGroup>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeE7Xk_vLngcrX4BUyIOBKMszVK50rqhQk6p9b9wyB5xIgNWQ/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <ImageGroup2>
+                        <Image5 src={`https://i.imgur.com/7FRHUSH.png`} />
+                        <Image6 src={`https://i.imgur.com/yLFhlSJ.png`} />
+                    </ImageGroup2>
+                </Blobs>
             </Join>
         </Wrapper>
     )
@@ -130,7 +140,44 @@ const Image2 = styled.img`
     width: 350px;
 `
 
-const Image3 = styled.img``
+const Blobs = styled.div`
+    display: flex;
+    justify-content: space-between;
+    //grid-template-columns: repeat(3, 1fr);
+`
+
+const ImageGroup = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+const ImageGroup2 = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+
+const Image3 = styled.img`
+    width: 250px;
+    margin-top: -100px;
+`
+
+const Image4 = styled.img`
+    width: 400px;
+    margin-top: 140px;
+`
+
+const Image5 = styled.img`
+    width: 350px;
+`
+
+const Image6 = styled.img`
+    width: 350px;
+    margin-top: 126px;
+`
+
+
+
 
 const Top = styled.div`
     background-color: #2C323E;
